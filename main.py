@@ -1,11 +1,11 @@
 import hashlib
 numtry = 0
 passnum = 0
-with open("C:\\Users\\avilu\\Downloads\\10-million-password-list-top-1000000.txt", "r") as file:
+with open("INSERT REF. FILE", "r") as file:
     content = file.read()
     words = content.split()
 
-with open("C:\\Users\\avilu\\Downloads\\SHA1.txt", "r") as file:
+with open("INSERT PASSLIST", "r") as file:
     content = file.read()
     userpass = content.split()
 
@@ -17,7 +17,7 @@ for x in userpass:
         numtry = numtry + 1
         if p == x:
             print(str(y) + ": " + str(x))
-            with open('C:\\Users\\avilu\\PycharmProjects\\idk\\found', 'r'):
+            with open('INSERT RESULT FILE', 'r'):
                 file.write(str(y) + ": " + str(x))
             passnum = passnum + 1
 
