@@ -18,7 +18,7 @@ PassCracker is a Python tool designed for cracking MD5 hashed passwords using br
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/avilubick/PassCracker
    cd PassCracker
    ```
 
